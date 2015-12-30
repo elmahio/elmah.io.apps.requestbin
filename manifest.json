@@ -1,6 +1,7 @@
 {
 	"variables": [{
-		"name": "bin",
+		"key": "bin",
+		"name": "Bin",
 		"description": "The Id of the bin to post to (example: 1k5c4qb2)",
 		"type": "text",
 		"required": true
