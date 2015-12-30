@@ -1,0 +1,19 @@
+{
+	"variables": [{
+		"name": "bin",
+		"description": "The Id of the bin to post to (example: 1k5c4qb2)",
+		"type": "text",
+		"required": true
+	}],
+	"rule": {
+		"title": "Post a message to RequestBin on all messages",
+		"query": "*",
+		"then": {
+			"type": "http",
+			"url": "http://requestb.in/$bin",
+			"method": "post",
+			"contentType": "application/json",
+			"body": "{\"timestamp\": \"$time\", \"message\": \"$message\", \"severity\": \"$severity\"}"
+		}
+	}
+}
