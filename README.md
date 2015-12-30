@@ -1,2 +1,1 @@
-# elmah.io.apps.requestbin
-Integrates RequestBin with elmah.io
+# RequestBin integration for elmah.ioIntegrates RequestBin with elmah.io. To install the integration, go to the Apps tab on your log settings and add this app.
