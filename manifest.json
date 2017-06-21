@@ -15,7 +15,8 @@
 			"url": "http://requestb.in/$bin",
 			"method": "post",
 			"contentType": "application/json",
-			"body": "{\"timestamp\": \"$time\", \"message\": \"$message\", \"severity\": \"$severity\"}"
+			"body": "{\"timestamp\": \"$time\", \"message\": \"$message\", \"severity\": \"$severity\"}",
+			"testUrl": "http://requestb.in/$bin"
 		}
 	}
 }
