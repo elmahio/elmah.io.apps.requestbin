@@ -10,7 +10,7 @@
     <description>Post a new HTTP request to RequestBin when messages are logged in elmah.io.</description>
     <projectUrl>https://github.com/elmahio/elmah.io.apps.requestbin</projectUrl>
     <iconUrl>https://elmah.io/images/appstore/elmah.io.apps.requestbin.png</iconUrl>
-	<tags>Error Exception Reporing Management Logging ELMAH Diagnostics Tracing RequestBin</tags>
+	<tags>Error Exception Reporting Management Logging ELMAH Diagnostics Tracing RequestBin</tags>
   </metadata>
   <files>
     <file src="manifest.json" target="manifest.json" />
