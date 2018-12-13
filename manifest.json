@@ -12,11 +12,11 @@
 		"query": "*",
 		"then": {
 			"type": "http",
-			"url": "http://requestb.in/$bin",
+			"url": "http://requestbin.fullcontact.com/$bin",
 			"method": "post",
 			"contentType": "application/json",
 			"body": "{\"timestamp\": \"$time\", \"message\": \"$message\", \"severity\": \"$severity\"}",
-			"testUrl": "http://requestb.in/$bin"
+			"testUrl": "http://requestbin.fullcontact.com/$bin"
 		}
 	}
 }
