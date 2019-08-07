@@ -8,9 +8,10 @@
     <title>RequestBin Integration</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Post a new HTTP request to RequestBin when messages are logged in elmah.io.</description>
-    <projectUrl>https://github.com/elmahio/elmah.io.apps.requestbin</projectUrl>
+    <projectUrl>https://elmah.io/</projectUrl>
+    <repository type="git" url="https://github.com/elmahio/elmah.io.apps.requestbin" />
     <iconUrl>https://elmah.io/images/appstore/elmah.io.apps.requestbin.png</iconUrl>
-	<tags>Error Exception Reporting Management Logging ELMAH Diagnostics Tracing RequestBin</tags>
+    <tags>Error Exception Reporting Management Logging ELMAH Diagnostics Tracing RequestBin</tags>
   </metadata>
   <files>
     <file src="manifest.json" target="manifest.json" />
